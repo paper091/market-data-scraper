@@ -1,0 +1,10 @@
+hashtags: ["nifty50", "sensex", "intraday", "banknifty"]
+query_language: "en" # use "" to disable language filter
+hours_back: 24
+min_tweets: 2000
+max_per_hashtag: 4000 # safety cap per hashtag
+batch_size: 500 # parquet write batch size
+concurrency: 4
+raw_dir: "data/raw"
+processed_dir: "data/processed"
+log_level: "INFO"
